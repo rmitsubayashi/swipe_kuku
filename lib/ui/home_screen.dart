@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:swipe_kuku/bloc/practice/practice_bloc.dart';
+import 'package:swipe_kuku/bloc/practice/practice_event.dart';
 import 'package:swipe_kuku/bloc/questions/questions_bloc.dart';
 import 'package:swipe_kuku/bloc/questions/questions_event.dart';
 import 'package:swipe_kuku/translation/translation_map.dart';
@@ -21,7 +23,7 @@ class HomeScreen extends StatelessWidget {
             Container(
               child: RaisedButton(
                 child: Text(
-                  TranslationMap.of(context).homeQuestionText,
+                  TranslationMap.of(context).homeTestText,
                   style: TextStyle(fontSize: 48),
                 ),
                 onPressed: () {
@@ -36,6 +38,20 @@ class HomeScreen extends StatelessWidget {
                 padding: EdgeInsets.fromLTRB(48, 0, 48, 0),
               ),
               margin: EdgeInsets.only(bottom: 48),
+            ),
+            Container(
+              child: FlatButton(
+                child: Text(
+                  TranslationMap.of(context).practiceTitleText,
+                  style: TextStyle(fontSize: 24),
+                ),
+                onPressed: () {
+                  final practiceBloc = BlocProvider.of<PracticeBloc>(context);
+                  practiceBloc.add(GetPracticeQuestions());
+                  Navigator.of(context).pushNamed(Routes.practice);
+                },
+                textColor: Theme.of(context).accentColor,
+              ),
             ),
             FlatButton(
               child: Text(

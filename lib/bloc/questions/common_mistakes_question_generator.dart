@@ -23,6 +23,10 @@ class CommonMistakesQuestionGenerator implements QuestionGenerator {
     final first = _random.nextInt(9) + 1;
     final second = _random.nextInt(9) + 1;
 
+    return _generateQuestion(first, second);
+  }
+
+  Question _generateQuestion(int first, int second) {
     var mistake;
     if (_isOneTable(first, second)) {
       mistake = _generateOneTableMistake(first, second);
@@ -37,9 +41,9 @@ class CommonMistakesQuestionGenerator implements QuestionGenerator {
       choices.insert(0, mistake.toString());
     }
     return Question(
-      QuestionGenerator.formatQuestion(first, second),
-      "$answer",
-      choices
+        QuestionGenerator.formatQuestion(first, second),
+        "$answer",
+        choices
     );
   }
 
@@ -208,5 +212,10 @@ class CommonMistakesQuestionGenerator implements QuestionGenerator {
   // 1 * 8 = 1
   int _idempotentMistake(int first, int second) {
     return 1;
+  }
+
+  @override
+  Question regenerateQuestion(int first, int second) {
+    return _generateQuestion(first, second);
   }
 }

@@ -77,8 +77,8 @@
     "type": "text",
     "placeholders": {}
   },
-  "start": "始める",
-  "@start": {
+  "test": "テスト",
+  "@test": {
     "type": "text",
     "placeholders": {}
   },
@@ -89,6 +89,11 @@
   },
   "finish": "終わる",
   "@finish": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "practice": "練習",
+  "@practice": {
     "type": "text",
     "placeholders": {}
   },
@@ -124,6 +129,16 @@
   },
   "incorrect": "不正解",
   "@incorrect": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "finished": "終了",
+  "@finished": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "congratulations": "お疲れ様です！",
+  "@congratulations": {
     "type": "text",
     "placeholders": {}
   },

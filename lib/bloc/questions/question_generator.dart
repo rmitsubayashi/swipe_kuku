@@ -6,6 +6,9 @@ abstract class QuestionGenerator {
 
   Question generateQuestion();
 
+  // when we want the same questions with different choices
+  Question regenerateQuestion(int first, int second);
+
   static String formatQuestion(int first, int second) {
     return "$first x $second";
   }

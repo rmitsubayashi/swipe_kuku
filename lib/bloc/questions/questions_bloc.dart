@@ -29,7 +29,7 @@ class QuestionsBloc extends Bloc<QuestionsEvent, QuestionsState> {
   final StreamController _questionsFinishedStreamController = StreamController<bool>();
   Stream<bool> questionsFinishedStream;
   StreamSink<bool> _questionsFinishedSink;
-  Settings settings;
+  Settings _settings;
   final QuestionSetRepository questionSetRepository;
   final QuestionRecordRepository questionRecordRepository;
   final QuestionGenerator questionGenerator;
@@ -67,11 +67,11 @@ class QuestionsBloc extends Bloc<QuestionsEvent, QuestionsState> {
     // have to wait until settings are loaded
     if (settingsBloc.state is SettingsLoaded) {
       // if the settings are already loaded, can't listen to it??
-      settings = (settingsBloc.state as SettingsLoaded).settings;
+      _settings = (settingsBloc.state as SettingsLoaded).settings;
     } else {
       _settingsSubscription = settingsBloc.listen((state) {
         if (state is SettingsLoaded) {
-          settings = state.settings;
+          _settings = state.settings;
           add(GetQuestions());
         }
       });
@@ -85,7 +85,7 @@ class QuestionsBloc extends Bloc<QuestionsEvent, QuestionsState> {
     _questionRecords = [];
     _questions = [];
     questionGenerator.setSeed(DateTime.now().millisecondsSinceEpoch);
-    for (var i=0; i<settings.questionCt; i++) {
+    for (var i=0; i<_settings.questionCt; i++) {
       _questions.add(questionGenerator.generateQuestion());
     }
 
@@ -105,14 +105,13 @@ class QuestionsBloc extends Bloc<QuestionsEvent, QuestionsState> {
         if (state.correct) {
           userAnswer = currQuestion.answer;
         } else {
-          userAnswer = currQuestion.answer == currQuestion.choices[0] ?
-          currQuestion.choices[1] : currQuestion.choices[0];
+          userAnswer = currQuestion.wrongChoice();
         }
         final record = QuestionRecord(_questionSet, currQuestion, userAnswer, state.correct);
         _questionRecords.add(record);
 
         // play sound
-        if (settings.soundEnabled) {
+        if (_settings.soundEnabled) {
           if (state.correct) {
             _audioCache.play("correct.wav");
           } else {

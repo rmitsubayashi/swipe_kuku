@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:swipe_kuku/bloc/practice/practice_bloc.dart';
 import 'package:swipe_kuku/bloc/questions/common_mistakes_question_generator.dart';
 import 'package:swipe_kuku/bloc/questions/questions_bloc.dart';
 import 'package:swipe_kuku/bloc/questions/timer/timer_bloc.dart';
@@ -20,6 +21,8 @@ import 'package:swipe_kuku/repository/sqlite_question_set_repository.dart';
 import 'package:swipe_kuku/translation/translation_map.dart';
 import 'package:swipe_kuku/translation/translations.dart';
 import 'package:swipe_kuku/ui/home_screen.dart';
+import 'package:swipe_kuku/ui/practice_finished_screen.dart';
+import 'package:swipe_kuku/ui/practice_screen.dart';
 import 'package:swipe_kuku/ui/questions_screen.dart';
 import 'package:swipe_kuku/ui/result_screen.dart';
 import 'package:swipe_kuku/ui/routes.dart';
@@ -53,6 +56,14 @@ void main() {
               questionSetRepository: SqliteQuestionSetRepository(LocalDatabase.getInstance()),
               questionRecordRepository: SqliteQuestionRecordRepository(LocalDatabase.getInstance()),
               questionGenerator: CommonMistakesQuestionGenerator()
+            ),
+      ),
+      BlocProvider<PracticeBloc>(
+        create: (context) =>
+            PracticeBloc(
+              questionValidatorBloc: BlocProvider.of<QuestionValidatorBloc>(context),
+              questionGenerator: CommonMistakesQuestionGenerator(),
+              settingsBloc: BlocProvider.of<SettingsBloc>(context)
             ),
       ),
       BlocProvider<ResultBloc>(
@@ -108,8 +119,10 @@ class App extends StatelessWidget {
         routes: <String, WidgetBuilder> {
           Routes.home: (BuildContext context) => HomeScreen(),
           Routes.questions: (BuildContext context) => QuestionsScreen(),
+          Routes.practice: (BuildContext context) => PracticeScreen(),
           Routes.stats: (BuildContext context) => StatsScreen(),
           Routes.results: (BuildContext context) => ResultScreen(),
+          Routes.practiceFinished: (BuildContext context) => PracticeFinishedScreen(),
           Routes.settings: (BuildContext context) => SettingsScreen(),
         },
         localizationsDelegates: [

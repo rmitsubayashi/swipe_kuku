@@ -25,12 +25,14 @@ class MessageLookup extends MessageLookupByLibrary {
   static _notInlinedMessages(_) => <String, Function> {
     "are you sure" : MessageLookupByLibrary.simpleMessage("きろくをけします。よろしいですか？"),
     "click a square" : MessageLookupByLibrary.simpleMessage("ますをクリック！"),
+    "congratulations" : MessageLookupByLibrary.simpleMessage("おつかれさまです！"),
     "correct" : MessageLookupByLibrary.simpleMessage("せいかい"),
     "correct percentage" : MessageLookupByLibrary.simpleMessage("せいかいりつ"),
     "empty stats" : MessageLookupByLibrary.simpleMessage("きろくがありません"),
     "error" : MessageLookupByLibrary.simpleMessage("エラーがおこりました"),
     "excellent" : MessageLookupByLibrary.simpleMessage("さいこう！！"),
     "finish" : MessageLookupByLibrary.simpleMessage("おわる"),
+    "finished" : MessageLookupByLibrary.simpleMessage("しゅりょう"),
     "good" : MessageLookupByLibrary.simpleMessage("あとすこし！"),
     "great" : MessageLookupByLibrary.simpleMessage("そのちょうし！"),
     "heat map" : MessageLookupByLibrary.simpleMessage("ヒートマップ"),
@@ -38,6 +40,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "language mode" : MessageLookupByLibrary.simpleMessage("もじモード"),
     "loading" : MessageLookupByLibrary.simpleMessage("ロードちゅう"),
     "no" : MessageLookupByLibrary.simpleMessage("いいえ"),
+    "practice" : MessageLookupByLibrary.simpleMessage("れんしゅう"),
     "question ct" : MessageLookupByLibrary.simpleMessage("もんだいすう"),
     "question speed" : MessageLookupByLibrary.simpleMessage("せいげんじかん"),
     "questionSpeedWithUnit" : m0,
@@ -45,9 +48,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "remove stats" : MessageLookupByLibrary.simpleMessage("きろくをけす"),
     "results" : MessageLookupByLibrary.simpleMessage("けっか"),
     "settings" : MessageLookupByLibrary.simpleMessage("せってい"),
-    "start" : MessageLookupByLibrary.simpleMessage("はじめる"),
     "stats" : MessageLookupByLibrary.simpleMessage("せいせき"),
     "swipe kuku" : MessageLookupByLibrary.simpleMessage("スワイプくく"),
+    "test" : MessageLookupByLibrary.simpleMessage("テスト"),
     "to home" : MessageLookupByLibrary.simpleMessage("ホームへ"),
     "yes" : MessageLookupByLibrary.simpleMessage("はい")
   };

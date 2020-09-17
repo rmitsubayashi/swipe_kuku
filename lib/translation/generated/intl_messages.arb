@@ -1,5 +1,5 @@
 {
-  "@@last_modified": "2020-09-16T14:26:19.164175",
+  "@@last_modified": "2020-09-17T17:14:28.948359",
   "settings": "settings",
   "@settings": {
     "type": "text",
@@ -77,8 +77,8 @@
     "type": "text",
     "placeholders": {}
   },
-  "start": "start",
-  "@start": {
+  "test": "test",
+  "@test": {
     "type": "text",
     "placeholders": {}
   },
@@ -89,6 +89,11 @@
   },
   "finish": "finish",
   "@finish": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "practice": "practice",
+  "@practice": {
     "type": "text",
     "placeholders": {}
   },
@@ -124,6 +129,16 @@
   },
   "incorrect": "incorrect",
   "@incorrect": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "finished": "finished",
+  "@finished": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "congratulations": "congratulations",
+  "@congratulations": {
     "type": "text",
     "placeholders": {}
   },

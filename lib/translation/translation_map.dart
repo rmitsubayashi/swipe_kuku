@@ -126,9 +126,9 @@ class TranslationMap {
     );
   }
 
-  String get homeQuestionText {
+  String get homeTestText {
     return Intl.message(
-      'start',
+      'test',
       locale: localeName
     );
   }
@@ -143,6 +143,13 @@ class TranslationMap {
   String get questionsFinish {
     return Intl.message(
       'finish',
+      locale: localeName
+    );
+  }
+
+  String get practiceTitleText {
+    return Intl.message(
+      'practice',
       locale: localeName
     );
   }
@@ -193,6 +200,20 @@ class TranslationMap {
     return Intl.message(
         'incorrect',
         locale: localeName
+    );
+  }
+
+  String get practiceFinishedTitleText {
+    return Intl.message(
+      'finished',
+      locale: localeName
+    );
+  }
+
+  String get practiceFinishedCongratulations {
+    return Intl.message(
+      'congratulations',
+      locale: localeName
     );
   }
 
