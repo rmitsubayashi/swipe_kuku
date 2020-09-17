@@ -1,0 +1,140 @@
+{
+  "@@last_modified": "2020-09-07T09:51:59.321432",
+  "settings": "せってい",
+  "@settings": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "question ct": "もんだいすう",
+  "@question ct": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "question speed": "せいげんじかん",
+  "@question speed": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "language mode": "もじモード",
+  "@language mode": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "questionSpeedWithUnit": "{questionSpeed} びょう",
+  "@questionSpeedWithUnit": {
+    "type": "text",
+    "placeholders": {
+      "questionSpeed": {}
+    }
+  },
+  "stats": "せいせき",
+  "@stats": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "correct percentage": "せいかいりつ",
+  "@correct percentage": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "heat map": "ヒートマップ",
+  "@heat map": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "click a square": "ますをクリック！",
+  "@click a square": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "remove stats": "きろくをけす",
+  "@remove stats": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "are you sure": "きろくをけします。よろしいですか？",
+  "@are you sure": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "yes": "はい",
+  "@yes": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "no": "いいえ",
+  "@no": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "empty stats": "きろくがありません",
+  "@empty stats": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "swipe kuku": "スワイプくく",
+  "@swipe kuku": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "start": "はじめる",
+  "@start": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "questions": "もんだい",
+  "@questions": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "finish": "おわる",
+  "@finish": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "results": "けっか",
+  "@results": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "to home": "ホームへ",
+  "@to home": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "excellent": "さいこう！！",
+  "@excellent": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "great": "そのちょうし！",
+  "@great": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "good": "あとすこし！",
+  "@good": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "correct": "せいかい",
+  "@correct": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "incorrect": "ふせいかい",
+  "@incorrect": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "loading": "ロードちゅう",
+  "@loading": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "error": "エラーがおこりました",
+  "@error": {
+    "type": "text",
+    "placeholders": {}
+  }
+}

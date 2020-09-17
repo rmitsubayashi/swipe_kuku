@@ -1,0 +1,140 @@
+{
+  "@@last_modified": "2020-09-07T09:51:59.321432",
+  "settings": "設定",
+  "@settings": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "question ct": "問題数",
+  "@question ct": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "question speed": "制限時間",
+  "@question speed": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "language mode": "文字モード",
+  "@language mode": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "questionSpeedWithUnit": "{questionSpeed} 秒",
+  "@questionSpeedWithUnit": {
+    "type": "text",
+    "placeholders": {
+      "questionSpeed": {}
+    }
+  },
+  "stats": "成績",
+  "@stats": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "correct percentage": "正解率",
+  "@correct percentage": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "heat map": "ヒートマップ",
+  "@heat map": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "click a square": "ますをクリック！",
+  "@click a square": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "remove stats": "記録を消す",
+  "@remove stats": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "are you sure": "記録を消します。よろしいですか？",
+  "@are you sure": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "yes": "はい",
+  "@yes": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "no": "いいえ",
+  "@no": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "empty stats": "記録がありません",
+  "@empty stats": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "swipe kuku": "スワイプ九九",
+  "@swipe kuku": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "start": "始める",
+  "@start": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "questions": "問題",
+  "@questions": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "finish": "終わる",
+  "@finish": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "to home": "ホームへ",
+  "@to home": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "results": "結果",
+  "@results": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "excellent": "最高！！",
+  "@excellent": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "great": "その調子！",
+  "@great": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "good": "あと少し！",
+  "@good": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "correct": "正解",
+  "@correct": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "incorrect": "不正解",
+  "@incorrect": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "loading": "ロード中",
+  "@loading": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "error": "エラーが起こりました",
+  "@error": {
+    "type": "text",
+    "placeholders": {}
+  }
+}

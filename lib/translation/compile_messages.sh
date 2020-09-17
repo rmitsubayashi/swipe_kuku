@@ -1,0 +1,1 @@
+flutter pub pub run intl_translation:generate_from_arb  --output-dir=lib/translation/generated lib/translation/translation_map.dart lib/translation/generated/intl_ja.arb lib/translation/generated/intl_ja-Hiragana.arb

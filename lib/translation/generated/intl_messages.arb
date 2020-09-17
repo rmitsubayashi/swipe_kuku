@@ -1,0 +1,140 @@
+{
+  "@@last_modified": "2020-09-16T14:26:19.164175",
+  "settings": "settings",
+  "@settings": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "question ct": "question ct",
+  "@question ct": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "question speed": "question speed",
+  "@question speed": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "language mode": "language mode",
+  "@language mode": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "questionSpeedWithUnit": "{questionSpeed} seconds",
+  "@questionSpeedWithUnit": {
+    "type": "text",
+    "placeholders": {
+      "questionSpeed": {}
+    }
+  },
+  "stats": "stats",
+  "@stats": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "correct percentage": "correct percentage",
+  "@correct percentage": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "heat map": "heat map",
+  "@heat map": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "click a square": "click a square",
+  "@click a square": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "remove stats": "remove stats",
+  "@remove stats": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "are you sure": "are you sure",
+  "@are you sure": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "yes": "yes",
+  "@yes": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "no": "no",
+  "@no": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "empty stats": "empty stats",
+  "@empty stats": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "swipe kuku": "swipe kuku",
+  "@swipe kuku": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "start": "start",
+  "@start": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "questions": "questions",
+  "@questions": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "finish": "finish",
+  "@finish": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "results": "results",
+  "@results": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "to home": "to home",
+  "@to home": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "excellent": "excellent",
+  "@excellent": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "great": "great",
+  "@great": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "good": "good",
+  "@good": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "correct": "correct",
+  "@correct": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "incorrect": "incorrect",
+  "@incorrect": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "loading": "loading",
+  "@loading": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "error": "error",
+  "@error": {
+    "type": "text",
+    "placeholders": {}
+  }
+}
