@@ -75,7 +75,7 @@ class QuestionsScreen extends StatelessWidget {
                                   onPressed: () {
                                     questionsBloc.add(FinishQuestions());
                                     Navigator.of(context)
-                                        .popAndPushNamed(Routes.results);
+                                        .pushReplacementNamed(Routes.results);
                                   },
                                 )
                               : Column(
@@ -121,7 +121,7 @@ class QuestionsScreen extends StatelessWidget {
                         (CardSwipeOrientation orientation, int index) {
                       if (index == state.questions.length) {
                         questionsBloc.add(FinishQuestions());
-                        Navigator.of(context).popAndPushNamed(Routes.results);
+                        Navigator.of(context).pushReplacementNamed(Routes.results);
                         return;
                       }
                       String choice = "";

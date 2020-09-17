@@ -49,7 +49,7 @@ class PracticeScreen extends StatelessWidget {
                                 onPressed: () {
                                   practiceBloc.add(FinishPracticeQuestions());
                                   Navigator.of(context)
-                                      .popAndPushNamed(Routes.practiceFinished);
+                                      .pushReplacementNamed(Routes.practiceFinished);
                                 },
                               )
                                   : Column(
@@ -95,7 +95,7 @@ class PracticeScreen extends StatelessWidget {
                             (CardSwipeOrientation orientation, int index) {
                           if (index == state.questions.length) {
                             practiceBloc.add(FinishPracticeQuestions());
-                            Navigator.of(context).popAndPushNamed(Routes.practiceFinished);
+                            Navigator.of(context).pushReplacementNamed(Routes.practiceFinished);
                             return;
                           }
                           String choice = "";
