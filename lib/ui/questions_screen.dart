@@ -121,7 +121,8 @@ class QuestionsScreen extends StatelessWidget {
                         (CardSwipeOrientation orientation, int index) {
                       if (index == state.questions.length) {
                         questionsBloc.add(FinishQuestions());
-                        Navigator.of(context).pushReplacementNamed(Routes.results);
+                        Navigator.of(context)
+                            .pushReplacementNamed(Routes.results);
                         return;
                       }
                       String choice = "";
@@ -145,17 +146,19 @@ class QuestionsScreen extends StatelessWidget {
                   builder: (context, state) {
                     if (state is QuestionChecked) {
                       if (state.correct) {
-                        return Icon(
+                        return IgnorePointer(
+                            child: Icon(
                           Icons.trip_origin,
                           size: MediaQuery.of(context).size.width * 0.7,
                           color: CorrectColors.green.withAlpha(100),
-                        );
+                        ));
                       } else {
-                        return Icon(
+                        return IgnorePointer(
+                            child: Icon(
                           Icons.clear,
                           size: MediaQuery.of(context).size.width * 0.7,
                           color: CorrectColors.red.withAlpha(100),
-                        );
+                        ));
                       }
                     } else {
                       return Text(" ");
