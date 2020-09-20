@@ -6,4 +6,5 @@ class Routes {
   static final String practiceFinished = '/practiceFinished';
   static final String stats = '/stats';
   static final String settings = '/settings';
+  static final String info = '/info';
 }

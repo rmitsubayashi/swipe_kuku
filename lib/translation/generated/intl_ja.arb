@@ -142,6 +142,16 @@
     "type": "text",
     "placeholders": {}
   },
+  "test info": "実力を試しましょう！\n制限時間以内に問題を解いていきます。\nこの結果は成績に反映されます。",
+  "@test info": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "practice info": "制限時間なしで、プレッシャーのない状態で練習しましょう。\n間違えた問題は、正解するまで何度も出てきます。\nこの結果は成績に反映されません。",
+  "@practice info": {
+    "type": "text",
+    "placeholders": {}
+  },
   "loading": "ロード中",
   "@loading": {
     "type": "text",

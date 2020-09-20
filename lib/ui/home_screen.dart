@@ -15,6 +15,17 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(TranslationMap.of(context).homeTitleText),
+        actions: [
+          IconButton(
+            icon: Icon(
+              Icons.info_outline,
+              semanticLabel: "インフォメーション",
+            ),
+            onPressed: () {
+              Navigator.of(context).pushNamed(Routes.info);
+            },
+          )
+        ],
       ),
       body: Center(
         child: Column(

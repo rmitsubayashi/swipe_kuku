@@ -217,6 +217,20 @@ class TranslationMap {
     );
   }
 
+  String get infoTest {
+    return Intl.message(
+      'test info',
+      locale: localeName
+    );
+  }
+
+  String get infoPractice {
+    return Intl.message(
+      'practice info',
+      locale: localeName
+    );
+  }
+
   String get loadingText {
     return Intl.message(
       'loading',

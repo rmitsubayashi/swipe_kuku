@@ -142,6 +142,16 @@
     "type": "text",
     "placeholders": {}
   },
+  "test info": "じつりょくをためしましょう！\nせいげんじかんいないにもんだいをといていきます。\nこのけっかはせいせきにはんえいされます。",
+  "@test info": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "practice info": "せいげんじかんなしで、プレッシャーのないじょうたいでれんしゅうしましょう。\nまちがえたもんだいは、せいかいするまでなんどもでてきます。\nこのけっかはせいせきにはんえいされません。",
+  "@practice info": {
+    "type": "text",
+    "placeholders": {}
+  },
   "loading": "ロードちゅう",
   "@loading": {
     "type": "text",

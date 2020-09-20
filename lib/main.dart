@@ -21,6 +21,7 @@ import 'package:swipe_kuku/repository/sqlite_question_set_repository.dart';
 import 'package:swipe_kuku/translation/translation_map.dart';
 import 'package:swipe_kuku/translation/translations.dart';
 import 'package:swipe_kuku/ui/home_screen.dart';
+import 'package:swipe_kuku/ui/info_screen.dart';
 import 'package:swipe_kuku/ui/practice_finished_screen.dart';
 import 'package:swipe_kuku/ui/practice_screen.dart';
 import 'package:swipe_kuku/ui/questions_screen.dart';
@@ -124,6 +125,7 @@ class App extends StatelessWidget {
           Routes.results: (BuildContext context) => ResultScreen(),
           Routes.practiceFinished: (BuildContext context) => PracticeFinishedScreen(),
           Routes.settings: (BuildContext context) => SettingsScreen(),
+          Routes.info: (BuildContext context) => InfoScreen(),
         },
         localizationsDelegates: [
           const TranslationMapDelegate(),

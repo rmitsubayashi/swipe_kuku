@@ -41,6 +41,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "loading" : MessageLookupByLibrary.simpleMessage("ロード中"),
     "no" : MessageLookupByLibrary.simpleMessage("いいえ"),
     "practice" : MessageLookupByLibrary.simpleMessage("練習"),
+    "practice info" : MessageLookupByLibrary.simpleMessage("制限時間なしで、プレッシャーのない状態で練習しましょう。\n間違えた問題は、正解するまで何度も出てきます。\nこの結果は成績に反映されません。"),
     "question ct" : MessageLookupByLibrary.simpleMessage("問題数"),
     "question speed" : MessageLookupByLibrary.simpleMessage("制限時間"),
     "questionSpeedWithUnit" : m0,
@@ -51,6 +52,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "stats" : MessageLookupByLibrary.simpleMessage("成績"),
     "swipe kuku" : MessageLookupByLibrary.simpleMessage("スワイプ九九"),
     "test" : MessageLookupByLibrary.simpleMessage("テスト"),
+    "test info" : MessageLookupByLibrary.simpleMessage("実力を試しましょう！\n制限時間以内に問題を解いていきます。\nこの結果は成績に反映されます。"),
     "to home" : MessageLookupByLibrary.simpleMessage("ホームへ"),
     "yes" : MessageLookupByLibrary.simpleMessage("はい")
   };

@@ -41,6 +41,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "loading" : MessageLookupByLibrary.simpleMessage("ロードちゅう"),
     "no" : MessageLookupByLibrary.simpleMessage("いいえ"),
     "practice" : MessageLookupByLibrary.simpleMessage("れんしゅう"),
+    "practice info" : MessageLookupByLibrary.simpleMessage("せいげんじかんなしで、プレッシャーのないじょうたいでれんしゅうしましょう。\nまちがえたもんだいは、せいかいするまでなんどもでてきます。\nこのけっかはせいせきにはんえいされません。"),
     "question ct" : MessageLookupByLibrary.simpleMessage("もんだいすう"),
     "question speed" : MessageLookupByLibrary.simpleMessage("せいげんじかん"),
     "questionSpeedWithUnit" : m0,
@@ -51,6 +52,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "stats" : MessageLookupByLibrary.simpleMessage("せいせき"),
     "swipe kuku" : MessageLookupByLibrary.simpleMessage("スワイプくく"),
     "test" : MessageLookupByLibrary.simpleMessage("テスト"),
+    "test info" : MessageLookupByLibrary.simpleMessage("じつりょくをためしましょう！\nせいげんじかんいないにもんだいをといていきます。\nこのけっかはせいせきにはんえいされます。"),
     "to home" : MessageLookupByLibrary.simpleMessage("ホームへ"),
     "yes" : MessageLookupByLibrary.simpleMessage("はい")
   };
