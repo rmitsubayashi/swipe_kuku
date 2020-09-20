@@ -109,13 +109,14 @@ class App extends StatelessWidget {
         locale = Locale(Translation.JAPANESE);
       }
       return MaterialApp(
-        title: 'Flutter Demo',
+        title: 'Swipe Kuku',
         theme: ThemeData(
           primaryColor: Color.fromRGBO(0, 147, 148, 1.0),
           primaryColorDark: Color.fromRGBO(0, 98, 112, 1.0),
           primaryColorLight: Color.fromRGBO(0, 224, 199, 1.0),
           accentColor: Color.fromRGBO(255, 135, 73, 1.0),
         ),
+        debugShowCheckedModeBanner: false,
         home: HomeScreen(),
         routes: <String, WidgetBuilder> {
           Routes.home: (BuildContext context) => HomeScreen(),
