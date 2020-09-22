@@ -12,6 +12,7 @@ class InfoScreen extends StatelessWidget {
         ),
         body: Container(
           child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
                 TranslationMap.of(context).homeTestText,
