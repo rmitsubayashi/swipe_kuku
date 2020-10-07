@@ -34,6 +34,7 @@ dependencies:
   flutter_tindercard: ^0.2.0
   percent_indicator: ^2.1.6
   audioplayers: ^0.16.1
+  url_launcher: ^5.7.2
 
 dev_dependencies:
   flutter_test:

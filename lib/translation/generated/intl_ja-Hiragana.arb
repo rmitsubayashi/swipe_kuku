@@ -15,6 +15,11 @@
     "type": "text",
     "placeholders": {}
   },
+  "sound": "おんせい",
+  "@volume": {
+    "type": "text",
+    "placeholders": {}
+  },
   "language mode": "もじモード",
   "@language mode": {
     "type": "text",
@@ -142,8 +147,18 @@
     "type": "text",
     "placeholders": {}
   },
+  "info": "インフォメーション",
+  "@info": {
+    "type": "text",
+    "placeholders": {}
+  },
   "test info": "じつりょくをためしましょう！\nせいげんじかんいないにもんだいをといていきます。\nこのけっかはせいせきにはんえいされます。",
   "@test info": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "privacy policy": "プライバシーポリシー",
+  "@privacy policy": {
     "type": "text",
     "placeholders": {}
   },

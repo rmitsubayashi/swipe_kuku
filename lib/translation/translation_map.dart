@@ -38,6 +38,13 @@ class TranslationMap {
     );
   }
 
+  String get sound {
+    return Intl.message(
+      'sound',
+      locale: localeName
+    );
+  }
+
   String get settingsLanguageMode {
     return Intl.message(
       'language mode',
@@ -217,9 +224,23 @@ class TranslationMap {
     );
   }
 
+  String get infoTitle {
+    return Intl.message(
+      'info',
+      locale: localeName
+    );
+  }
+
   String get infoTest {
     return Intl.message(
       'test info',
+      locale: localeName
+    );
+  }
+
+  String get infoPrivacyPolicy {
+    return Intl.message(
+      'privacy policy',
       locale: localeName
     );
   }

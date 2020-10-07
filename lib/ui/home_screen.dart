@@ -19,7 +19,7 @@ class HomeScreen extends StatelessWidget {
           IconButton(
             icon: Icon(
               Icons.info_outline,
-              semanticLabel: "インフォメーション",
+              semanticLabel: TranslationMap.of(context).infoTitle,
             ),
             onPressed: () {
               Navigator.of(context).pushNamed(Routes.info);

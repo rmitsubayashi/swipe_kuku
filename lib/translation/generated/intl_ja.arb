@@ -15,6 +15,11 @@
     "type": "text",
     "placeholders": {}
   },
+  "sound": "音声",
+  "@volume": {
+    "type": "text",
+    "placeholders": {}
+  },
   "language mode": "文字モード",
   "@language mode": {
     "type": "text",
@@ -142,8 +147,18 @@
     "type": "text",
     "placeholders": {}
   },
+  "info": "インフォメーション",
+  "@info": {
+    "type": "text",
+    "placeholders": {}
+  },
   "test info": "実力を試しましょう！\n制限時間以内に問題を解いていきます。\nこの結果は成績に反映されます。",
   "@test info": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "privacy policy": "プライバシーポリシー",
+  "@privacy policy": {
     "type": "text",
     "placeholders": {}
   },

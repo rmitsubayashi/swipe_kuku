@@ -72,7 +72,7 @@ class SettingsScreen extends StatelessWidget {
                     },
                   ),
                   Text(
-                    "音声",
+                    TranslationMap.of(context).sound,
                     style: TextStyle(
                         fontSize: 24
                     ),
