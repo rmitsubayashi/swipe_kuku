@@ -84,3 +84,7 @@ The app turned out better than I expected. It's simple and easy to use. I could 
 3. Go to lib/translation/generated/intl_messages.arb and find the newly generated strings
 4. Copy them into intl_ja.arb and intl_ja_Hiragana.arb with the appropriate translations
 5. Run compile_messages.sh
+
+### Building the app on Android
+
+You will need a key.properties file with the appropriate credentials (not on Github)
